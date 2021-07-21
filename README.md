@@ -15,3 +15,34 @@ https://www.notion.so/Cent-OS-7-6-1c598629675145988b43a37998a1604a
 
 【圈x订阅地址】
 https://ghproxy.com/https://raw.githubusercontent.com/shufflewzc/faker/main/qx.json
+
+### SSH安装
+docker exec -it QL bash -c "apk add --no-cache build-base g++ cairo-dev pango-dev giflib-dev && cd scripts && npm install canvas --build-from-source"
+
+2、适用于JDHelloWorld的宠汪汪二代目和宠汪汪兑奖品二代目
+docker exec -it QL bash -c "cd scripts && npm i -S png-js"
+
+### 全部依赖
+安装依赖库
+docker exec -it QL bash -c "npm install -g typescript"
+docker exec -it QL bash -c "npm install axios date-fns"
+
+docker exec -it QL bash -c "npm install png-js"
+docker exec -it QL bash -c "npm install -g npm"
+docker exec -it QL bash -c "pnpm i png-js"
+docker exec -it QL bash -c "pip3 install requests"
+docker exec -it QL bash -c "apk add --no-cache build-base g++ cairo-dev pango-dev giflib-dev && cd scripts && npm install canvas --build-from-source"
+docker exec -it QL bash -c "apk add python3 zlib-dev gcc jpeg-dev python3-dev musl-dev freetype-dev"
+docker exec -it QL bash -c "cd /ql/scripts/ && apk add --no-cache build-base g++ cairo-dev pango-dev giflib-dev && npm i && npm i -S ts-node typescript @types/node date-fns axios png-js canvas --build-from-source"
+
+签到，宠汪汪兑换等依赖文件安装(必装) 感谢Oreo提供方案
+
+yum install wget unzip -y
+
+cd QL/scripts
+
+wget https://ghproxy.com/https://github.com/shufflewzc/faker2/releases/download/0.0.1/utils.zip && unzip utils.zip
+
+
+
+
